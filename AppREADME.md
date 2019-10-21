@@ -9,18 +9,27 @@ Ashley Erffmeyer, with major support from KU's Coding Boot Camp staff members:
 * Seth Willis (TA)
 
 ## Tools Used
-* JavaScript
-* ReactJS
-* Node
-* Express
-* MongoDB
-* Mongoose
+* [Bootstrap](https://getbootstrap.com/)
+* CSS	
+* [Google Books API](https://developers.google.com/books/)
+* [Heroku](https://www.heroku.com)
+* HTML	
+* JavaScript	
+* JSX	
+* [mLab (MongoDB for Heroku)](https://www.mlab.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Mongoose](https://mongoosejs.com/)
+* [Node.js](https://nodejs.org/)
+* [Node Package Manager (NPM)](https://npmjs.com/)
+* [ReactJS](https://github.com/facebook/react)
 
 ## Prerequisites & Installations
 
 
 ## Application Overview
-This web application is a React-based Google Books Search. This app leverages React components, works with helper/util functions, and utilizes React lifecycle methods to query and display books based on user searches. It also uses Node, Express and MongoDB so users can save books to review or purchase later.
+MERN Stack Application using Google Books API to search for books and MongoDB to save search results
+
+This web application is a MERN Stack Application React-based Google Books Search. This app leverages React components, works with helper/util functions, and utilizes React lifecycle methods to query and display books based on user searches. It also uses Node, Express and MongoDB so users can save books to review or purchase later.
 
 ## Instructions
 (React) Googe Books Search includes code to connect to a MongoDB database named `googlebooks` using the mongoose npm package. Mongoose creates a Book schema.
