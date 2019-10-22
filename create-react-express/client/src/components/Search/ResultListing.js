@@ -90,3 +90,4 @@ class ResultListing extends React.Component {
     }
 }
 
+export default ResultListing;
