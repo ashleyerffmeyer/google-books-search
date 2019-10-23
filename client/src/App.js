@@ -9,24 +9,23 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="container">
 
-          {/* Navigation */}
-          <Nav />
+        {/* Navigation */}
+        <Nav />
 
-          {/* Jumbotron */}
-          <Jumbotron />
+        {/* Jumbotron */}
+        <Jumbotron />
 
-          {/* Main Content */}
-          <Router>
-            <Switch>
-              <Route exact path="/" component={Search} />
-              <Route path="/search" component={Search} />
-              <Route path="/books" component={Books} />
-            </Switch>
-          </Router>
+        {/* Main Content */}
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Search} />
+            <Route path="/search" component={Search} />
+            <Route path="/books" component={Books} />
+          </Switch>
+        </Router>
 
-        </div>
+
       </div>
     )
   }
