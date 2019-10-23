@@ -6,7 +6,6 @@ var axios = require("axios");
 // Ensuring that all models are required
 var db = require("../models");
 
-
 exports.getBooks = (req, res) => {
     db.Book.find().then(function (dbBooks) {
         res.json(dbBooks);
@@ -25,8 +24,7 @@ exports.saveBook = (req, res) => {
     ).catch(
         (err) => {
             res.json(err);
-        }
-    );
+        });
 
 };
 
@@ -50,6 +48,5 @@ exports.bookSearch = (req, res) => {
         }
         ).catch((err) => {
             res.json(err.message);
-        }
-        );
+        });
 };

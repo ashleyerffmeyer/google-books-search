@@ -10,3 +10,7 @@
 .result-listing{
     background: #FFFFFF;
 }
+
+.btn-success .btn-danger{
+    color: black;
+}

@@ -16,7 +16,9 @@ class App extends Component {
 
         {/* Jumbotron */}
         <Jumbotron />
-        <Wrapper >
+
+        {/* Wrapper */}
+        <Wrapper>
 
           {/* Main Content */}
           <Router>

@@ -60,9 +60,9 @@ class ResultListing extends React.Component {
 
     render() {
         return (
-            <div className="result-listing mb-2 pl-3 pr-3 pt-2 pb-2">
+            <div className="result-listing">
                 <div className="row">
-                    <div className="col-md-2 pt-2 pb-2">
+                    <div className="col-md-2">
                         <img src={this.props.image} alt={this.props.title}></img>
                     </div>
                     <div className="col-md-10">
@@ -77,11 +77,11 @@ class ResultListing extends React.Component {
                         <a className="mt-3 mr-1" href={this.props.link} target="_blank" rel="noopener noreferrer"><button className="btn btn-sm btn-success">View</button></a>
 
                         {!(this.props.page === "search") ?
-                            null : <button className="btn btn-sm btn-success mt-3 mb-3 ml-1" onClick={this.handleSaveBook}>Save</button>
+                            null : <button className="btn btn-sm btn-success" onClick={this.handleSaveBook}>Save</button>
                         }
 
                         {!(this.props.page === "books") ?
-                            null : <button className="btn btn-sm btn-danger mt-3 mb-3 ml-1" onClick={this.handleDeleteBook}>Delete</button>
+                            null : <button className="btn btn-sm btn-danger" onClick={this.handleDeleteBook}>Delete</button>
                         }
                     </div>
                 </div>
