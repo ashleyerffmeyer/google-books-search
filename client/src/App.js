@@ -5,6 +5,7 @@ import { Search } from "./components/Search"
 import Books from "./components/Books";
 import Wrapper from "./components/Wrapper";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
 
 class App extends Component {
   render() {
