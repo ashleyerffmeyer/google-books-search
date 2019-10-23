@@ -45,8 +45,8 @@ class Search extends React.Component {
                     <form>
                         <div className="form-group">
                             <label>Book Title</label>
-                            <input type="text" className="form-control" id="input-text-book-title" aria-describedby="bookTitleSearch" placeholder="Enter title" onChange={(c) => this.searchTitleChange(c)}></input>
-                            <small id="bookTitleSearchHelp" className="form-text text-muted">Enter a book title and click the search button to see what's out there!</small>
+                            <input type="text" className="form-control" id="input-text-book-title" aria-describedby="bookTitleSearch" placeholder="Enter Book Title" onChange={(c) => this.searchTitleChange(c)}></input>
+                            <small id="bookTitleSearchHelp" className="form-text">Enter a book title and click the search button to see what's out there!</small>
                         </div>
                         <button type="submit" className="btn btn-sm btn-success" onClick={(s) => this.searchButtonClick(s)}>Search</button>
                     </form>

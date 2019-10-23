@@ -5,3 +5,11 @@
     -ms-flex-direction: row;
     flex-direction: row;
 }
+
+.navbar{
+    font-family: 'BioRhyme', serif;
+}
+
+.nav-item{
+    font-family: 'Arvo', serif;
+}

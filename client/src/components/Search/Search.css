@@ -1,9 +1,19 @@
 .book-search
 {
-    background: lightseagreen;
+    background: lightblue;
+    font-family: 'BioRhyme', serif;
+    opacity: 0.8;
+ 
 }
 
 .book-search-results
 {
-    background: lightseagreen;
+    background: lightblue;
+    font-family: 'BioRhyme', serif;
+    opacity: 0.8;
+    
+}
+
+.btn-success{
+    color: black;
 }

@@ -5,8 +5,8 @@ import "./Jumbotron.css";
 function Jumbotron() {
     return (
         <div className="jumbotron jumbotron-fluid">
-            <div className="container">
-                <h1 className="display-4">(React) Google Books Search</h1>
+            <div>
+                <h1 className="title">(React) Google Books Search</h1>
                 <p className="lead">Search for and save books that interest you!</p>
             </div>
         </div>
