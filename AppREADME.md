@@ -24,7 +24,7 @@ Ashley Erffmeyer, with major support from KU's Coding Boot Camp staff members:
 * [ReactJS](https://github.com/facebook/react)
 
 ## Prerequisites & Installations
-
+First, clone repo. Then, `npm install` the following dependencies: axios, express, mongoose, react, and react-router-dom. Finally, `npm start`. 
 
 ## Application Overview
 MERN Stack Application using Google Books API to search for books and MongoDB to save search results
